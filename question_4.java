@@ -7,7 +7,6 @@ public class question_4 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        //program that takes an in integer and prints a string that is as long as the integer that is filled with random lowercase letters
 
         int amount = input.nextInt();
         int length;
