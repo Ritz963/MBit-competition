@@ -1,9 +1,26 @@
+import java.util.Scanner;
+
 public class question_1 {
     
     public static void main(String[] args) {
-        System.out.println("Hello World");
+        Scanner input = new Scanner(System.in);
 
-        System.out.println("Jono is a chimp");
+        int person;
+        int total = 0;
+
+        for(int x = 0; x<3; x++){
+            person = input.nextInt();
+            if(person > 59){
+                total += 15;
+            }
+            else if(person > 17){
+                total+=20;
+            }
+            else{
+                total += 10;
+            }
+        }    
+        
+        System.out.println(total);
     }
-
 }
